@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student sentiment analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-----------------head-------------------->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/Student sentiment analysis-logos_transparent.png" width="195px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="sentiment.html">Home</a></li>
+                        <li><a href="">Code</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href=" ">Account</a></li>
+                    </ul>
+                </nav>
+        
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Student Sentiment<br>Analysis</h1>
+                    <p>Lets predict the sentiments of students <br>we classify it as positive or negative
+                    </p>
+                    <a href="https://ann-studentsentiments.streamlit.app" class="btn">Get Started &#8594; </a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<!-----------js for toggle menu-->
+    <script>
+        var MenuItems=document.getElementById("MenuItems");
+        MenuItems.style.maxHeight="0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight=="0px")
+            {
+                MenuItems.style.maxHeight="200px";
+            }
+            else{
+                MenuItems.style.maxHeight="0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
